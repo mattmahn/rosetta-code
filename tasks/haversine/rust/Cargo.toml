@@ -1,0 +1,6 @@
+[package]
+name = "haversine-rs"
+version = "0.1.0"
+authors = ["Matthew Mahnke <mahnkem@msoe.edu>"]
+
+[dependencies]
