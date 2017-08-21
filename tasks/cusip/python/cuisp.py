@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-import math
 
 def cusip_check(cusip: str) -> bool:
     if len(cusip) != 9:
@@ -29,6 +28,7 @@ def cusip_check(cusip: str) -> bool:
         total += int(v / 10) + v % 10
     check = (10 - (total % 10)) % 10
     return str(check) == cusip[-1]
+
 
 if __name__ == '__main__':
     codes = [
